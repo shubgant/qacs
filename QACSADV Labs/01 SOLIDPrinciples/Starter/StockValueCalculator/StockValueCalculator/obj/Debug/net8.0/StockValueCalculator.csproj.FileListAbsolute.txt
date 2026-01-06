@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\bin\Debug\net8.0\StockValueCalculator.deps.json
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\bin\Debug\net8.0\StockValueCalculator.dll
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\bin\Debug\net8.0\StockValueCalculator.pdb
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.AssemblyInfo.cs
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.sourcelink.json
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.dll
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\refint\StockValueCalculator.dll
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\StockValueCalculator.pdb
+C:\Users\Admin\Documents\code\QACSADV\QACSADV Labs\01 SOLIDPrinciples\Starter\StockValueCalculator\StockValueCalculator\obj\Debug\net8.0\ref\StockValueCalculator.dll

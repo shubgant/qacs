@@ -8,11 +8,11 @@ namespace StockValueCalculator
 {
     public class Inventory
     {
-        private List<Product> products = new List<Product>();
+        private List<IProduct> products = new List<IProduct>();
 
-        public void AddProduct(string name, string authorArtist, int pagesTracks, decimal basePrice, string type)
+        public void AddProduct(IProduct product)
         {
-            products.Add(new Product(name, authorArtist, pagesTracks, basePrice, type));
+            products.Add(product);
         }
 
         public decimal TotalStockValue
