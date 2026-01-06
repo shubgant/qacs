@@ -18,6 +18,18 @@ namespace VehiclePatterns
 		// for a Vehicle
 		//Console.WriteLine($"Vehicle Update: Status of {vehicle.Owner}'s {vehicle.GetType().Name} has been refreshed.");
 
+		public void Update(IVehicle vehicle)
+		{
+			if (vehicle is VehicleGroup)
+			{
+                Console.WriteLine($"Vehicle Monitor Update: Status of one of {vehicle.Owner}'s vehicles has been refreshed.");
+            }
+			else
+			{
+                Console.WriteLine($"Vehicle Update: Status of {vehicle.Owner}'s {vehicle.GetType().Name} has been refreshed.");
+            }
+		}
+
 
     }
 }

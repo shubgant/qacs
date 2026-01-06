@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,14 +10,14 @@ namespace VehiclePatterns
 {
     public class VehicleFactory
     {
-        public IVehicle CreateVehicle(VehicleType vehicleType)
+        public IVehicle CreateVehicle(VehicleType vehicleType, string owner)
         {
             // replace the statement below with code that returns a vehicle based on the vehicle type passed in the string parameter
             return vehicleType switch
             {
-                VehicleType.Car => new Car("Shub"),
-                VehicleType.Lorry => new Lorry("Shub"),
-                VehicleType.Motorcycle => new MotorCycle("Shub"),
+                VehicleType.Car => new Car(owner),
+                VehicleType.Lorry => new Lorry(owner),
+                VehicleType.Motorcycle => new MotorCycle(owner),
                 _ => throw new ArgumentException("Unknown vehicle type")
             };
         }

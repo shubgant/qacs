@@ -14,6 +14,7 @@ using System.Threading.Tasks;
             //e.g. OnChange?.Invoke(this);
 
             public string Owner { get; set; }
+            public event Action<IVehicle>? OnChange;
 
             public MotorCycle(string Owner)
             {
@@ -22,18 +23,25 @@ using System.Threading.Tasks;
 
             public void DisplayStatus()
             {
-                Console.WriteLine("Motorcycle status");
+                Console.WriteLine($"Motorcycle status: owned by {Owner}");
+                OnChange?.Invoke(this);
             }
 
             public void StartEngine()
             {
                 Console.WriteLine("Motorcycle engine started");
-            }
+            OnChange?.Invoke(this);
+        }
 
             public void StopEngine()
             {
                 Console.WriteLine("Motorcycle engine stopped");
-            }
+            OnChange?.Invoke(this);
+
         }
-	}
+            public void Add(IVehicle vehicle) { }
+            public void Remove(IVehicle vehicle) { }
+
+    }
+}
 

@@ -26,27 +26,55 @@ namespace VehiclePatterns
         // For the Remove method, remove the vehicle from the private List and also remove the event subscription
         // e.g. vehicle.OnChange -= (vehicle) => OnChange?.Invoke(vehicle);
 
+        private List<IVehicle> _vehicles = [];
         public string Owner { get; set; }
+        public event Action<IVehicle>? OnChange;
 
         public VehicleGroup(string Owner)
         {
             this.Owner = Owner;
         }
+        
+        public void Add(IVehicle vehicle)
+        {
+            _vehicles.Add(vehicle);
+        }
+
+        public void Remove(IVehicle vehicle)
+        {
+            _vehicles.Remove(vehicle);
+        }
 
         public void DisplayStatus()
         {
-            Console.WriteLine("Car status");
+            Console.WriteLine($"==== Show status for all vehicles owned by {Owner}");
+            foreach (IVehicle vehicle in  _vehicles)
+            {
+                vehicle.DisplayStatus();
+            }
+            OnChange?.Invoke(this);
         }
 
         public void StartEngine()
         {
-            Console.WriteLine("Car engine started");
+            Console.WriteLine($"==== Start engine for all vehicles owned by {Owner}");
+            foreach (IVehicle vehicle in _vehicles)
+            {
+                vehicle.StartEngine();
+            }
+            OnChange?.Invoke(this);
         }
 
         public void StopEngine()
         {
-            Console.WriteLine("Car engine stopped");
+            Console.WriteLine($"==== Stop engine for all vehicles owned by {Owner}");
+            foreach (IVehicle vehicle in _vehicles)
+            {
+                vehicle.StopEngine();
+            }
+            OnChange?.Invoke(this);
         }
+
 
 
     }

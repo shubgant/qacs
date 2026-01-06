@@ -15,6 +15,7 @@ namespace VehiclePatterns
         //e.g. OnChange?.Invoke(this);
 
         public string Owner { get; set; }
+        public event Action<IVehicle>? OnChange;
 
         public Lorry(string Owner)
         {
@@ -23,19 +24,24 @@ namespace VehiclePatterns
 
         public void DisplayStatus()
         {
-            Console.WriteLine("Lorry status");
+            Console.WriteLine($"Lorry status: owned by {Owner}");
+            OnChange?.Invoke(this);
         }
 
         public void StartEngine()
         {
             Console.WriteLine("Lorry engine started");
+            OnChange?.Invoke(this);
         }
 
         public void StopEngine()
         {
             Console.WriteLine("Lorry engine stopped");
+            OnChange?.Invoke(this);
         }
 
+        public void Add(IVehicle vehicle) { }
+        public void Remove(IVehicle vehicle) { }
     }
 }
 

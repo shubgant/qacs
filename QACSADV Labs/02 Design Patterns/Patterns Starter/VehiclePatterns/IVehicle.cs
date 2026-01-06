@@ -21,6 +21,11 @@ namespace VehiclePatterns
 		public void StartEngine();
 		public void StopEngine();
 
+		public void Add(IVehicle vehicle);
+		public void Remove(IVehicle vehicle);
+
+		event Action<IVehicle> OnChange;
+
 	}
 
 }

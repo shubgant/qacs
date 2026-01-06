@@ -10,6 +10,8 @@ namespace VehiclePatterns
     {
 
         //Require classes implementing this interface to have a Void method named Update with paramater of type IVehicle
+
+        public void Update(IVehicle vehicle);
        
     }
 }
