@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|e:\\qal\\qacsadvanced\\labs\\patterns\\patternsextended\\vehiclepatterns\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|e:\\qal\\qacsadvanced\\labs\\patterns\\patternsextended\\vehiclepatterns\\stopengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\stopengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\lorry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\lorry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\vehiclegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\vehiclegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\vehiclemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\vehiclemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|e:\\qal\\qacsadvanced\\labs\\patterns\\patternsextended\\vehiclepatterns\\startenginecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\startenginecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|e:\\qal\\qacsadvanced\\labs\\patterns\\patternsextended\\vehiclepatterns\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|e:\\qal\\qacsadvanced\\labs\\patterns\\patternsextended\\vehiclepatterns\\ivehiclechangedobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\ivehiclechangedobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\vehiclepatterns\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73ABFD7-44A7-442B-B300-B9D93B2F2107}|VehiclePatterns\\VehiclePatterns.csproj|solutionrelative:vehiclepatterns\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StartEngineCommand.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\StartEngineCommand.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\StartEngineCommand.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\StartEngineCommand.cs",
+              "RelativeToolTip": "VehiclePatterns\\StartEngineCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAvwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:01:55.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Program.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\Program.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Program.cs",
+              "RelativeToolTip": "VehiclePatterns\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:35:46.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleMonitor.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleMonitor.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\VehicleMonitor.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleMonitor.cs",
+              "RelativeToolTip": "VehiclePatterns\\VehicleMonitor.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAawBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:40:31.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehicleGroup.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleGroup.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\VehicleGroup.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleGroup.cs",
+              "RelativeToolTip": "VehiclePatterns\\VehicleGroup.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAawCgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:39:50.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lorry.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Lorry.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\Lorry.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Lorry.cs",
+              "RelativeToolTip": "VehiclePatterns\\Lorry.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIAzwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:38:10.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IVehicle.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\IVehicle.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\IVehicle.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\IVehicle.cs",
+              "RelativeToolTip": "VehiclePatterns\\IVehicle.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:37:12.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandInvoker.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\CommandInvoker.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\CommandInvoker.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\CommandInvoker.cs",
+              "RelativeToolTip": "VehiclePatterns\\CommandInvoker.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAEwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:03:26.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StopEngine.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\StopEngine.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\StopEngine.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\StopEngine.cs",
+              "RelativeToolTip": "VehiclePatterns\\StopEngine.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:02:48.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Car.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Car.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\Car.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\Car.cs",
+              "RelativeToolTip": "VehiclePatterns\\Car.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIAzwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:37:41.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\ICommand.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\ICommand.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\ICommand.cs",
+              "RelativeToolTip": "VehiclePatterns\\ICommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:01:19.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IVehicleChangedObserver.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\IVehicleChangedObserver.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\IVehicleChangedObserver.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\IVehicleChangedObserver.cs",
+              "RelativeToolTip": "VehiclePatterns\\IVehicleChangedObserver.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAnwAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:41:11.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MotorCycle.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\MotorCycle.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\MotorCycle.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\MotorCycle.cs",
+              "RelativeToolTip": "VehiclePatterns\\MotorCycle.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowCQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:40:09.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VehicleFactory.cs",
+              "DocumentMoniker": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleFactory.cs",
+              "RelativeDocumentMoniker": "VehiclePatterns\\VehicleFactory.cs",
+              "ToolTip": "E:\\QAL\\QACSADVANCED\\Labs\\Patterns\\PatternsExtended\\VehiclePatterns\\VehicleFactory.cs",
+              "RelativeToolTip": "VehiclePatterns\\VehicleFactory.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:38:52.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

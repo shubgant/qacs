@@ -1,0 +1,45 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: inventory2022backend-deploy
+    labels:
+        app: inventory2022backend
+spec:
+  replicas: 1
+  #strategy:
+  #  type: RollingUpdate
+  #  rollingUpdate:
+  #      maxSurge: 1
+  #      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: inventory2022backend
+    spec:
+      containers:
+      - name: inventory2022backend
+        image: pbehague/inventoryservice:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5002
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://*:5002
+  selector:
+    matchLabels:
+      app: inventory2022backend
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: inventory2022backend
+spec:
+  type: NodePort
+  ports:
+  - port: 5002
+    targetPort: 5002
+    nodePort: 32002
+  selector:
+    app: inventory2022backend

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{00D39385-8CC5-4AFB-A651-056C70B4E583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommercePaymentSystem", "ECommercePaymentSystem\ECommercePaymentSystem.csproj", "{6B57A467-FCCA-4173-B381-B56F8E308501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D39385-8CC5-4AFB-A651-056C70B4E583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D39385-8CC5-4AFB-A651-056C70B4E583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D39385-8CC5-4AFB-A651-056C70B4E583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D39385-8CC5-4AFB-A651-056C70B4E583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B57A467-FCCA-4173-B381-B56F8E308501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B57A467-FCCA-4173-B381-B56F8E308501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B57A467-FCCA-4173-B381-B56F8E308501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B57A467-FCCA-4173-B381-B56F8E308501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E25EE659-30F0-4721-98EB-738F7386D5A4}
+	EndGlobalSection
+EndGlobal

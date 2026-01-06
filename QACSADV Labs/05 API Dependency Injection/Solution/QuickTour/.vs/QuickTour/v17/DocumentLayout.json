@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\models\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\quicktour.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\quicktour.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\middleware\\custommiddleware2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\middleware\\custommiddleware2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\middleware\\custommiddleware1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\middleware\\custommiddleware1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\quicktour.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\quicktour.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\quicktour.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\quicktour.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\qal\\qacsadvanced\\labs\\05 api dependency injection\\solution\\quicktour\\quicktour\\models\\iproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\iproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuickTour.http",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.http",
+              "RelativeDocumentMoniker": "QuickTour\\QuickTour.http",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.http",
+              "RelativeToolTip": "QuickTour\\QuickTour.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-14T14:38:49.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomMiddleware2.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Middleware\\CustomMiddleware2.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Middleware\\CustomMiddleware2.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Middleware\\CustomMiddleware2.cs",
+              "RelativeToolTip": "QuickTour\\Middleware\\CustomMiddleware2.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T11:19:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.staging.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.staging.json",
+              "RelativeDocumentMoniker": "QuickTour\\appsettings.staging.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.staging.json",
+              "RelativeToolTip": "QuickTour\\appsettings.staging.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T14:41:01.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.json",
+              "RelativeDocumentMoniker": "QuickTour\\appsettings.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.json",
+              "RelativeToolTip": "QuickTour\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T14:24:49.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "QuickTour\\appsettings.Development.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\appsettings.Development.json",
+              "RelativeToolTip": "QuickTour\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T12:01:25.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QuickTour\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QuickTour\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T16:05:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuickTour",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.csproj",
+              "RelativeDocumentMoniker": "QuickTour\\QuickTour.csproj",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.csproj",
+              "RelativeToolTip": "QuickTour\\QuickTour.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-17T14:27:23.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuickTour.csproj",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.csproj",
+              "RelativeDocumentMoniker": "QuickTour\\QuickTour.csproj",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\QuickTour.csproj",
+              "RelativeToolTip": "QuickTour\\QuickTour.csproj",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T15:14:21.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "QuickTour\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAewDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:30:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Program.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Program.cs",
+              "RelativeToolTip": "QuickTour\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAewBYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:30:37.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Models\\Product.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\Product.cs",
+              "RelativeToolTip": "QuickTour\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:22:39.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MockProductsContext.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Models\\MockProductsContext.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
+              "RelativeToolTip": "QuickTour\\Models\\MockProductsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:26:14.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomMiddleware1.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Middleware\\CustomMiddleware1.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Middleware\\CustomMiddleware1.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Middleware\\CustomMiddleware1.cs",
+              "RelativeToolTip": "QuickTour\\Middleware\\CustomMiddleware1.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T11:59:15.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "QuickTour\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:27:40.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dependencies.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\Dependencies.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Models\\Dependencies.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\Dependencies.cs",
+              "RelativeToolTip": "QuickTour\\Models\\Dependencies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:17:50.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductsContext.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\IProductsContext.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Models\\IProductsContext.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\05 API Dependency Injection\\Solution\\QuickTour\\QuickTour\\Models\\IProductsContext.cs",
+              "RelativeToolTip": "QuickTour\\Models\\IProductsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:32:09.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

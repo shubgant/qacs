@@ -1,0 +1,45 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: account2022backend-deploy
+    labels:
+        app: account2022backend
+spec:
+  replicas: 1
+  #strategy:
+  #  type: RollingUpdate
+  #  rollingUpdate:
+  #      maxSurge: 1
+  #      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: account2022backend
+    spec:
+      containers:
+      - name: account2022backend
+        image: pbehague/accountservice:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5001
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://*:5001
+  selector:
+    matchLabels:
+      app: account2022backend
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: account2022backend
+spec:
+  type: NodePort
+  ports:
+  - port: 5001
+    targetPort: 5001
+    nodePort: 32001
+  selector:
+    app: account2022backend

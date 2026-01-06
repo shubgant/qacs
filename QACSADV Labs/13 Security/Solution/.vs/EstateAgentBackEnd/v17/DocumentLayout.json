@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\sellerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|solutionrelative:sellerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\sellerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|solutionrelative:sellerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\sellerservice\\infrastructure\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|solutionrelative:sellerservice\\infrastructure\\userstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|c:\\qal\\qacsadvanced\\labs\\13 security\\solution\\sellerservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4119881-BE6C-45BF-ACCC-7201CC8D3309}|SellerService\\SellerService.csproj|solutionrelative:sellerservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\BookingService\\Program.cs",
+              "RelativeDocumentMoniker": "BookingService\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\BookingService\\Program.cs",
+              "RelativeToolTip": "BookingService\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:08:03.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuyerController.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\BuyerService\\Controllers\\BuyerController.cs",
+              "RelativeDocumentMoniker": "BuyerService\\Controllers\\BuyerController.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\BuyerService\\Controllers\\BuyerController.cs",
+              "RelativeToolTip": "BuyerService\\Controllers\\BuyerController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:02:36.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\appsettings.json",
+              "RelativeDocumentMoniker": "SellerService\\appsettings.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\appsettings.json",
+              "RelativeToolTip": "SellerService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T17:47:14.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserStore.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Infrastructure\\UserStore.cs",
+              "RelativeDocumentMoniker": "SellerService\\Infrastructure\\UserStore.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Infrastructure\\UserStore.cs",
+              "RelativeToolTip": "SellerService\\Infrastructure\\UserStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:42:34.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SellerService\\Models\\User.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Models\\User.cs",
+              "RelativeToolTip": "SellerService\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:42:16.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Program.cs",
+              "RelativeDocumentMoniker": "SellerService\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\13 Security\\Solution\\SellerService\\Program.cs",
+              "RelativeToolTip": "SellerService\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:38:15.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

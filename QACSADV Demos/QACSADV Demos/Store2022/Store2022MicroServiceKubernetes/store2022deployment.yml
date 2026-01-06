@@ -1,0 +1,47 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: store2022frontend-deploy
+    labels:
+        app: store2022frontend
+spec:
+  replicas: 1
+  #strategy:
+  #  type: RollingUpdate
+  #  rollingUpdate:
+  #      maxSurge: 1
+  #      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: store2022frontend
+    spec:
+      containers:
+      - name: store2022frontend
+        image: pbehague/store2022microservice:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://*:3000
+  selector:
+    matchLabels:
+      app: store2022frontend
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: store2022frontend
+spec:
+  type: NodePort
+  ports:
+    - port: 3000
+      targetPort: 3000
+      nodePort: 32000
+  selector:
+    app: store2022frontend
+
+    

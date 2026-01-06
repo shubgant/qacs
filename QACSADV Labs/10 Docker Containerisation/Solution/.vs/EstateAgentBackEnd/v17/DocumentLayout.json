@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\buyerservice\\buyerservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\buyerservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\bookingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\buyerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\solution\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6379AD2D-AA75-4C2B-9FC9-FBF43CA758E5}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 278,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuyerService",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BuyerService\\BuyerService.csproj",
+              "RelativeDocumentMoniker": "BuyerService\\BuyerService.csproj",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BuyerService\\BuyerService.csproj",
+              "RelativeToolTip": "BuyerService\\BuyerService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T16:14:05.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BookingService\\Dockerfile",
+              "RelativeDocumentMoniker": "BookingService\\Dockerfile",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BookingService\\Dockerfile",
+              "RelativeToolTip": "BookingService\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-10T16:09:10.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BookingService\\Program.cs",
+              "RelativeDocumentMoniker": "BookingService\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BookingService\\Program.cs",
+              "RelativeToolTip": "BookingService\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:00:33.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BuyerService\\Program.cs",
+              "RelativeDocumentMoniker": "BuyerService\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\BuyerService\\Program.cs",
+              "RelativeToolTip": "BuyerService\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:36:42.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-10T15:24:05.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T11:19:36.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAG0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-09T11:18:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Solution\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-09T11:18:10.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TPLRacer
+{
+    public class Racer
+    {
+        //internal static ManualResetEvent GoEvent = new ManualResetEvent(false);
+        internal static int carsReady = 0;
+        // Field used to tell when a race is over, and who won
+        private static int winningCar = -1;
+
+        private readonly PictureBox pictCar;
+        Label lblResult;
+        private const int RaceTrackLength = 665; // Adjust according to form size
+        private readonly Random random;
+        int CarNum { get; set; }
+
+        //
+        // Initialise ready to run a race
+        //
+        internal static void Initialise()
+        {
+            carsReady = 0;
+            //GoEvent.Reset();
+            winningCar = -1;
+        }
+
+        public Racer(PictureBox pb, int carNum, Label lblRes)
+        {
+            pictCar = pb;
+            pictCar.Left = 13;
+            CarNum = carNum;
+            lblResult = lblRes;
+            random = new Random();
+        }
+
+        //public async Task StartRaceAsync()
+        //{
+        //    // Start moving the car forward asynchronously
+        //    await Task.Run(() => Move());
+        //}
+
+        public void Move()
+        {
+            // One more car ready to go
+            //Interlocked.Increment(ref carsReady);
+
+            // Wait until all cars are ready to race
+            //GoEvent.WaitOne();
+
+            // Simulate car movement
+            if (pictCar.Left < 665 && winningCar == -1)
+            {
+                //pictCar.Invoke((Action)delegate
+                //{
+                // Move the car forward
+                //pictCar.Left += random.Next(10); // Adjust speed as needed
+                pictCar.Left += 5;
+                //});
+                // Simulate delay
+                //Task.Delay(25).Wait(); // Adjust delay as needed
+            }
+
+            //lock (typeof(Racer))
+            //{
+            if (pictCar.Left >= 665 && winningCar == -1)
+            {
+                winningCar = CarNum;
+                //lblResult.Invoke((Action)delegate
+                //{
+                lblResult.Text = "Car " + winningCar + " is the winner ";
+                //});
+            }
+            Thread.Sleep(1);
+            //}
+            // One more racer has finished
+            //Interlocked.Decrement(ref carsReady);
+        }
+    }
+}

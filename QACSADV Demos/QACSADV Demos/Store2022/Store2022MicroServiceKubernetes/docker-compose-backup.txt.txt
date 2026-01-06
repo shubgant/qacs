@@ -1,0 +1,58 @@
+
+
+services:
+  store2022microservice:
+    image: ${DOCKER_REGISTRY-}store2022microservice
+    environment:
+        ACCOUNT_SERVICE_API_BASE: http://172.19.10.101:5001/api
+        INVENTORY_SERVICE_API_BASE: http://172.19.10.102:5002/api
+        SHOPPING_SERVICE_API_BASE: http://172.19.10.103:5003/api
+    build:
+      context: .
+      dockerfile: Store2022Microservice/Dockerfile
+    ports:
+    - "5000:5000"
+    networks:
+        Store2022Microservicenetwork:
+            ipv4_address: 172.19.10.100
+
+  accountservice:
+    image: ${DOCKER_REGISTRY-}accountservice
+    build:
+      context: .
+      dockerfile: AccountService/Dockerfile
+    ports:
+    - "5001:5001"
+    networks:
+        Store2022Microservicenetwork:
+            ipv4_address: 172.19.10.101
+  inventoryservice:
+    image: ${DOCKER_REGISTRY-}inventoryservice
+    build:
+      context: .
+      dockerfile: InventoryService/Dockerfile
+    ports:
+    - "5002:5002"
+    networks:
+        Store2022Microservicenetwork:
+            ipv4_address: 172.19.10.102
+
+  shoppingservice:
+    image: ${DOCKER_REGISTRY-}shoppingservice
+    build:
+      context: .
+      dockerfile: ShoppingService/Dockerfile
+    ports:
+    - "5003:5003"
+    networks:
+        Store2022Microservicenetwork:
+            ipv4_address: 172.19.10.103
+
+networks:
+    Store2022Microservicenetwork:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.19.0.0/16
+

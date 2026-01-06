@@ -1,0 +1,29 @@
+
+
+services:
+  store2022microservice:
+    image: ${DOCKER_REGISTRY-}store2022microservice
+    build:
+      context: .
+      dockerfile: Store2022Microservice/Dockerfile
+
+  accountservice:
+    image: ${DOCKER_REGISTRY-}accountservice
+    build:
+      context: .
+      dockerfile: AccountService/Dockerfile
+
+
+  inventoryservice:
+    image: ${DOCKER_REGISTRY-}inventoryservice
+    build:
+      context: .
+      dockerfile: InventoryService/Dockerfile
+
+
+  shoppingservice:
+    image: ${DOCKER_REGISTRY-}shoppingservice
+    build:
+      context: .
+      dockerfile: ShoppingService/Dockerfile
+

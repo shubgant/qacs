@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|c:\\qal\\qacsadvanced\\labs\\03 async programming\\stemslab\\starter\\stemslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|solutionrelative:stemslab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|c:\\qal\\qacsadvanced\\labs\\03 async programming\\stemslab\\starter\\stemslab\\stemsorig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|solutionrelative:stemslab\\stemsorig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|c:\\qal\\qacsadvanced\\labs\\03 async programming\\stemslab\\starter\\stemslab\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E036D-DF48-4A5C-97A4-28C6327602BB}|StemsLab\\StemsLab.csproj|solutionrelative:stemslab\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StemsOrig.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\StemsOrig.cs",
+              "RelativeDocumentMoniker": "StemsLab\\StemsOrig.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\StemsOrig.cs",
+              "RelativeToolTip": "StemsLab\\StemsOrig.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:51:36.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\Timer.cs",
+              "RelativeDocumentMoniker": "StemsLab\\Timer.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\Timer.cs",
+              "RelativeToolTip": "StemsLab\\Timer.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:58:54.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\Program.cs",
+              "RelativeDocumentMoniker": "StemsLab\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\03 Async Programming\\StemsLab\\Starter\\StemsLab\\Program.cs",
+              "RelativeToolTip": "StemsLab\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:56:21.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

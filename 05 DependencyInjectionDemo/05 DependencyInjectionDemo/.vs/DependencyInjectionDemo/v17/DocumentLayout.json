@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\services\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\services\\greetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\models\\greetingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\models\\greetingsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\controllers\\greetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\controllers\\greetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|c:\\qal\\qacsadvanced\\demos\\05 dependencyinjectiondemo\\dependencyinjectiondemo\\services\\igreetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B1D105-145B-4A0B-8BEF-9D24281BA177}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\services\\igreetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GreetingSettings.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Models\\GreetingSettings.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Models\\GreetingSettings.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Models\\GreetingSettings.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Models\\GreetingSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:30:27.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\appsettings.json",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\appsettings.json",
+              "RelativeToolTip": "DependencyInjectionDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T13:28:52.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:14:49.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Program.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Program.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:52:48.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GreetingController.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Controllers\\GreetingController.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Controllers\\GreetingController.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Controllers\\GreetingController.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Controllers\\GreetingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:52:17.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GreetingService.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Services\\GreetingService.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Services\\GreetingService.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Services\\GreetingService.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Services\\GreetingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:51:37.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGreetingService.cs",
+              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Services\\IGreetingService.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Services\\IGreetingService.cs",
+              "ToolTip": "C:\\QAL\\QACSAdvanced\\Demos\\05 DependencyInjectionDemo\\DependencyInjectionDemo\\Services\\IGreetingService.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Services\\IGreetingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:50:51.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{CE066291-141F-49E5-B6DB-93EC76525EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionTests", "LiskovSubstitutionTests\LiskovSubstitutionTests.csproj", "{14A08880-8B8A-41C8-B092-32FB3168BF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE066291-141F-49E5-B6DB-93EC76525EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE066291-141F-49E5-B6DB-93EC76525EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE066291-141F-49E5-B6DB-93EC76525EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE066291-141F-49E5-B6DB-93EC76525EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A08880-8B8A-41C8-B092-32FB3168BF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A08880-8B8A-41C8-B092-32FB3168BF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A08880-8B8A-41C8-B092-32FB3168BF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A08880-8B8A-41C8-B092-32FB3168BF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99BC9861-9027-4861-B741-A4DBAF8248A8}
+	EndGlobalSection
+EndGlobal
