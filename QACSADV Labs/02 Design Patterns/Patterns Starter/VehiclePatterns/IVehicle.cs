@@ -15,6 +15,11 @@ namespace VehiclePatterns
 		// will be used later on to implement the Composite Pattern
 		// Add OnChange event Signature which will be used to help facilitate the observer pattern
 		// e.g. event Action<IVehicle> OnChange
+		public string Owner { get; set; }
+
+		public void DisplayStatus();
+		public void StartEngine();
+		public void StopEngine();
 
 	}
 

@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\code\\QACSADV\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{901F1F50-8A22-4D2E-A43D-2A69E82769A3}|StockValueCalculator\\StockValueCalculator.csproj|c:\\users\\admin\\documents\\code\\qacsadv\\qacsadv labs\\01 solidprinciples\\starter\\stockvaluecalculator\\stockvaluecalculator\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901F1F50-8A22-4D2E-A43D-2A69E82769A3}|StockValueCalculator\\StockValueCalculator.csproj|solutionrelative:stockvaluecalculator\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +37,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\.gitignore",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.gitignore",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\.gitignore",
+              "RelativeToolTip": "..\\..\\..\\..\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-06T14:43:12.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DVD.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\DVD.cs",
               "RelativeDocumentMoniker": "StockValueCalculator\\DVD.cs",
@@ -46,12 +66,11 @@
               "RelativeToolTip": "StockValueCalculator\\DVD.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwA8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:23:42.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:23:42.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\Inventory.cs",
               "RelativeDocumentMoniker": "StockValueCalculator\\Inventory.cs",
@@ -59,12 +78,11 @@
               "RelativeToolTip": "StockValueCalculator\\Inventory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:16:19.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:16:19.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CD.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\CD.cs",
               "RelativeDocumentMoniker": "StockValueCalculator\\CD.cs",
@@ -72,12 +90,11 @@
               "RelativeToolTip": "StockValueCalculator\\CD.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:14:53.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:14:53.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\Book.cs",
               "RelativeDocumentMoniker": "StockValueCalculator\\Book.cs",
@@ -85,29 +102,24 @@
               "RelativeToolTip": "StockValueCalculator\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T14:08:06.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T14:08:06.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\Product.cs",
               "RelativeDocumentMoniker": "StockValueCalculator\\Product.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculator\\Product.cs",
               "RelativeToolTip": "StockValueCalculator\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T14:04:59.77Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InventoryTests.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\QACSADV\\QACSADV Labs\\01 SOLIDPrinciples\\Starter\\StockValueCalculator\\StockValueCalculatorTests\\InventoryTests.cs",
               "RelativeDocumentMoniker": "StockValueCalculatorTests\\InventoryTests.cs",
@@ -115,8 +127,7 @@
               "RelativeToolTip": "StockValueCalculatorTests\\InventoryTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:29:44.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T09:29:44.864Z"
             }
           ]
         }
