@@ -11,7 +11,10 @@ class Program
     static void Main()
     {
         Dictionary<string, int> stems = GenerateStemsDictionary();
-        StemsOrig.FindStems(stems);
+        //StemsOrig.FindStems(stems);
+        StemsA.FindStems(stems);
+        StemsB.FindStems(stems);
+        StemsC.FindStems(stems);
     }
 
     private static Dictionary<string, int> GenerateStemsDictionary()
