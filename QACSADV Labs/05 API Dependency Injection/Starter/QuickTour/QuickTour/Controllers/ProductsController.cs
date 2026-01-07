@@ -9,13 +9,10 @@ namespace QuickTour.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        List<Product> _products = new List<Product>();
-        public ProductsController()
+        IProductsContext _context;
+        public ProductsController(IProductsContext context)
         {
-            _products.Add(new Product { ProductId = 1, Name = "Rolos" });
-            _products.Add(new Product { ProductId = 2, Name = "Bag of Crisps" });
-            _products.Add(new Product { ProductId = 3, Name = "Apple" });
-            _products.Add(new Product { ProductId = 4, Name = "Cheese Sandwich" });
+            _context = context;
         }
 
         [HttpGet("")]
@@ -23,7 +20,7 @@ namespace QuickTour.Controllers
         [HttpGet("ProductDetails")]
         public IEnumerable<Product> ProductsDetail()
         {
-            return _products;
+            return _context.GetProducts();
         }
 
         [HttpGet("ProductDetail/{id:int}")]
@@ -31,7 +28,7 @@ namespace QuickTour.Controllers
         [HttpGet("{id:int}")]
         public Product? ProductsDetail(int id)
         {
-            Product? p = _products.FirstOrDefault(p => p.ProductId == id);
+            Product? p = _context.GetProducts().FirstOrDefault(p => p.ProductId == id);
             return p;
         }
 
@@ -40,7 +37,7 @@ namespace QuickTour.Controllers
         [HttpGet("{id:int}/{name}")]
         public Product? ProductsDetail(int id, string? name)
         {
-            Product? p = _products.FirstOrDefault(p => p.ProductId == id && p.Name == name);
+            Product? p = _context.GetProducts().FirstOrDefault(p => p.ProductId == id && p.Name == name);
             return p;
         }
 
@@ -49,14 +46,14 @@ namespace QuickTour.Controllers
         [HttpGet("{name}")]
         public Product? ProductsDetail(string? name)
         {
-            Product? p = _products.FirstOrDefault(p => p.Name == name);
+            Product? p = _context.GetProducts().FirstOrDefault(p => p.Name == name);
             return p;
         }
 
         [HttpGet("Ordered")]
         public IEnumerable<Product> OrderedProducts()
         {
-            return _products.OrderBy(p => p.Name).ToList();
+            return _context.GetProducts().OrderBy(p => p.Name).ToList();
         }
     }
 }
