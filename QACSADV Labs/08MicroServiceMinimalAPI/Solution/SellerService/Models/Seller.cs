@@ -6,11 +6,6 @@ namespace SellerService.Models
     [Table("seller")]
     public class Seller
     {
-        public Seller()
-        {
-            //Properties = null;
-        }
-
         [Column("SELLER_ID")]
         [Key]
         public int Id { get; set; }
@@ -54,7 +49,7 @@ namespace SellerService.Models
         }
         public bool Equals(Seller? other)
         {
-            return Id == other.Id;
+            return Id == other?.Id;
         }
     }
 }
