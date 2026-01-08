@@ -80,7 +80,10 @@ app.MapDelete("/Properties/{id}", async (int id, PropertyContext db) =>
     {
         db.Properties.Remove(property);
         await db.SaveChangesAsync();
-        return Results.NoContent();
+        var http = new HttpClient();
+        string url = $"http://localhost:5225/bookingsByPropertyId/{id}";
+        HttpResponseMessage response = await http.DeleteAsync(url);
+        return response.IsSuccessStatusCode ? Results.NoContent() : Results.NotFound();
     }
 
     return Results.NotFound();

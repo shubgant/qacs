@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using BookingService.Infrastructure;
 using BookingService.Models;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins"; //Needed for Cors
@@ -45,6 +46,22 @@ app.MapGet("/bookings/{id}", async (int id, BookingContext db) =>
 
 app.MapPost("/bookings", async (Booking booking, BookingContext db) =>
 {
+    var http = new HttpClient(); // Check to see if PropertyId is valid
+    string url = $"https://localhost:7139/properties/{booking.PropertyId}";
+    HttpResponseMessage response = await http.GetAsync(url);
+    string responseJson = response.Content.ReadAsStringAsync().Result;
+    dynamic? responseData = JsonConvert.DeserializeObject(responseJson);
+
+    if (responseData == null || responseData?["id"] != booking.PropertyId) return Results.NotFound();
+
+    //Check to see if BuyerId is valid
+    url = $"https://localhost:7254/api/Buyer/buyers/{booking.BuyerId}";
+    response = await http.GetAsync(url);
+    responseJson = response.Content.ReadAsStringAsync().Result;
+    responseData = JsonConvert.DeserializeObject(responseJson);
+
+    if (responseData == null || responseData?["id"] != booking.BuyerId) return Results.NotFound();
+
     db.Bookings.Add(booking);
     await db.SaveChangesAsync();
 
@@ -77,6 +94,21 @@ app.MapDelete("/bookings/{id}", async (int id, BookingContext db) =>
     }
 
     return Results.NotFound();
+});
+
+app.MapDelete("/bookingsByPropertyId/{id}", async (int id, BookingContext db) =>
+{
+    List<Booking> bookings = await db.Bookings.Where(b => b.PropertyId == id).ToListAsync();
+
+    if (bookings is null || bookings.Count == 0) return Results.NotFound();
+
+    foreach (Booking booking in bookings)
+    {
+        db.Bookings.Remove(booking);
+    }
+
+    await db.SaveChangesAsync();
+    return Results.NoContent();
 });
 
 app.Run();

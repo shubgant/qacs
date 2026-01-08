@@ -77,6 +77,7 @@ namespace SellerService
 
             app.MapDelete("/sellers/{id}", async (int id, SellerContext db) =>
             {
+                
                 if (await db.Sellers.FindAsync(id) is Seller seller)
                 {
                     db.Sellers.Remove(seller);
