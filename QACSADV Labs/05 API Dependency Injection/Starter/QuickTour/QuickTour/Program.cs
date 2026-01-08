@@ -10,6 +10,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProductsContext, MockProductsContext>();
+builder.Services.AddTransient<ITransient, TransientDependency>();
+builder.Services.AddScoped<IScoped, ScopedDependency>();
+builder.Services.AddSingleton<ISingleton, SingletonDependency>();
 
 var app = builder.Build();
 
@@ -20,7 +23,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

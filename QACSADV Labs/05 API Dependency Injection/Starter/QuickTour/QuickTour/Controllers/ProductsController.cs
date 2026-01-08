@@ -10,9 +10,19 @@ namespace QuickTour.Controllers
     public class ProductsController : ControllerBase
     {
         IProductsContext _context;
-        public ProductsController(IProductsContext context)
+        private readonly ITransient _tran;
+        private readonly IScoped _scoped;
+        private readonly ISingleton _single;
+        private readonly ILogger<ProductsController> _logger; 
+
+
+        public ProductsController(IProductsContext context, ILogger<ProductsController> logger, ITransient tran, IScoped scoped, ISingleton singleton)
         {
             _context = context;
+            _logger = logger;
+            _tran = tran;
+            _scoped = scoped;
+            _single = singleton;
         }
 
         [HttpGet("")]
@@ -20,7 +30,12 @@ namespace QuickTour.Controllers
         [HttpGet("ProductDetails")]
         public IEnumerable<Product> ProductsDetail()
         {
-            return _context.GetProducts();
+            _logger.LogInformation("In the HttpGet Products Index() method <=======");
+            _tran.WriteGuidToConsole(); _scoped.WriteGuidToConsole(); _single.WriteGuidToConsole();
+            _logger.LogDebug("About to get the data");
+            IEnumerable<Product> products = _context.GetProducts();
+            _logger.LogDebug($"Number of Products: {products.Count()}");
+            return products;
         }
 
         [HttpGet("ProductDetail/{id:int}")]
