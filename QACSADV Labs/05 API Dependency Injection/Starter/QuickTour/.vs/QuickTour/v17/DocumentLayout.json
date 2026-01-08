@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\mockproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\models\\iproductscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\05 api dependency injection\\starter\\quicktour\\quicktour\\quicktour.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C5BB638E-CE01-4F9B-98B1-3E59DDA30F7C}|QuickTour\\QuickTour.csproj|solutionrelative:quicktour\\quicktour.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -42,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MockProductsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Models\\MockProductsContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
+              "RelativeToolTip": "QuickTour\\Models\\MockProductsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:41:22.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "QuickTour\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "QuickTour\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:30:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IProductsContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\IProductsContext.cs",
               "RelativeDocumentMoniker": "QuickTour\\Models\\IProductsContext.cs",
@@ -59,56 +85,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MockProductsContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
-              "RelativeDocumentMoniker": "QuickTour\\Models\\MockProductsContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\MockProductsContext.cs",
-              "RelativeToolTip": "QuickTour\\Models\\MockProductsContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T15:41:22.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Program.cs",
               "RelativeDocumentMoniker": "QuickTour\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Program.cs",
               "RelativeToolTip": "QuickTour\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T16:30:37.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "QuickTour\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Properties\\launchSettings.json",
               "RelativeToolTip": "QuickTour\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T16:05:58.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "QuickTour\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "QuickTour\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T15:30:43.632Z",
+              "WhenOpened": "2024-07-15T16:05:58.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "QuickTour\\Controllers\\WeatherForecastController.cs",
@@ -120,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\05 API Dependency Injection\\Starter\\QuickTour\\QuickTour\\Models\\Product.cs",
               "RelativeDocumentMoniker": "QuickTour\\Models\\Product.cs",
