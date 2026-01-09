@@ -15,5 +15,14 @@
     </None>
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
+    <None Include="K8s\bookingservice-deploy.yml" />
+    <None Include="K8s\buyerservice-deploy.yml" />
+    <None Include="K8s\propertyservice-deploy.yml" />
+    <None Include="K8s\rabbitmq-deploy.yml" />
+    <None Include="K8s\sellerservice-deploy.yml" />
+    <None Include="K8s\sqlestateagentbookingdata-deploy.yml" />
+    <None Include="K8s\sqlestateagentbuyerdata-deploy.yml" />
+    <None Include="K8s\sqlestateagentpropertydata-deploy.yml" />
+    <None Include="K8s\sqlestateagentsellerdata-deploy.yml" />
   </ItemGroup>
 </Project>

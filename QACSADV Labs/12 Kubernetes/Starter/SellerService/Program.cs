@@ -27,14 +27,16 @@ namespace SellerService
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                using (var scope = app.Services.CreateScope())
-                {
-                    var sellerContext = scope.ServiceProvider.GetRequiredService<SellerContext>();
-                    sellerContext.Database.EnsureCreated();
-                    sellerContext.Seed();
-                }
+                
                 app.UseSwagger();
                 app.UseSwaggerUI();
+            }
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var sellerContext = scope.ServiceProvider.GetRequiredService<SellerContext>();
+                sellerContext.Database.EnsureCreated();
+                sellerContext.Seed();
             }
 
             app.UseHttpsRedirection();

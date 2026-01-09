@@ -63,7 +63,7 @@ services:
             ipv4_address: 172.19.10.205
 
   buyerservice:
-    image: ${DOCKER_REGISTRY-}buyerservice
+    image: dockerspark1/buyerservice
     environment:
         - ConnectionString=sqlestateagentdata
     build:
@@ -79,7 +79,7 @@ services:
             ipv4_address: 172.19.10.211
 
   sellerservice:
-    image: ${DOCKER_REGISTRY-}sellerservice
+    image: dockerspark1/sellerservice
     build:
       context: .
       dockerfile: SellerService/Dockerfile
@@ -93,7 +93,7 @@ services:
             ipv4_address: 172.19.10.213
 
   propertyservice:
-    image: ${DOCKER_REGISTRY-}propertyservice
+    image: dockerspark1/propertyservice
     restart: on-failure
     environment:
       - ConnectionString=sqlestateagentdata
@@ -112,7 +112,7 @@ services:
             ipv4_address: 172.19.10.212
 
   bookingservice:
-    image: ${DOCKER_REGISTRY-}bookingservice
+    image: dockerspark1/bookingservice
     restart: on-failure
     environment:
       - ConnectionString=sqlestateagentdata

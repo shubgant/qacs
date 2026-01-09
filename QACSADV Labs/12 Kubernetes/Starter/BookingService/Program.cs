@@ -46,14 +46,16 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    using (var scope = app.Services.CreateScope())
-    {
-        var bookingContext = scope.ServiceProvider.GetRequiredService<BookingContext>();
-        bookingContext.Database.EnsureCreated();
-        bookingContext.Seed();
-    }
+    
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var bookingContext = scope.ServiceProvider.GetRequiredService<BookingContext>();
+    bookingContext.Database.EnsureCreated();
+    bookingContext.Seed();
 }
 
 app.MapGet("/bookings", async (BookingContext db) =>
