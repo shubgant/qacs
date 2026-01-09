@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using PropertyService.Infrastructure;
 using PropertyService.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using DotNetCore.CAP.Dashboard;
+using DotNetCore.CAP;
+using Events;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +17,32 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PropertyContext>(options =>
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("sqlestateagentdata")));
+
+
+builder.Services.AddCap(options =>
+{
+
+    options.UseEntityFramework<PropertyContext>();
+    options.UseSqlServer(builder.Configuration.GetConnectionString("sqlestateagentdata"));
+
+    options.UseDashboard(d =>
+    {
+        d.AllowAnonymousExplicit = true;
+    });
+
+    options.UseRabbitMQ(options =>
+    {
+        options.ConnectionFactoryOptions = options =>
+        {
+            options.Ssl.Enabled = false;
+            options.HostName = "rabbitmq";
+            options.UserName = "guest";
+            options.Password = "guest";
+            options.Port = 5672;
+        };
+    });
+
+});
 
 var app = builder.Build();
 
@@ -68,18 +98,17 @@ app.MapPut("/Properties/{id}", async (int id, Property inputProperty, PropertyCo
     return Results.NoContent();
 });
 
-app.MapDelete("/Properties/{id}", async (int id, PropertyContext db) =>
+app.MapDelete("/Properties/{id}", async (ICapPublisher capPublisher, int id, PropertyContext db) =>
 {
     if (await db.Properties.FindAsync(id) is Property property)
     {
         db.Properties.Remove(property);
         await db.SaveChangesAsync();
 
-        var http = new HttpClient();
-        string url = $"http://bookingservice:3010/bookingsByPropertyId/{id}";
-        HttpResponseMessage response = await http.DeleteAsync(url);
-
-        return response.IsSuccessStatusCode ? Results.NoContent() : Results.NotFound(); // Results.NoContent();
+        PropertyDeletedEvent propertyDeletedEvent = new PropertyDeletedEvent { PropertyID = property.Id };
+        var content = JsonConvert.SerializeObject(propertyDeletedEvent);
+        await capPublisher.PublishAsync("PropertyDeleted", content);
+        return Results.NoContent();
 
     }
 

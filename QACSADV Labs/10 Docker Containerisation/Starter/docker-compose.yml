@@ -1,0 +1,45 @@
+version: '3.4'
+
+services:
+  buyerservice:
+    image: ${DOCKER_REGISTRY-}buyerservice
+    environment:
+        - ConnectionString=sqlestateagentdata
+    build:
+        context: .
+        dockerfile: BuyerService/Dockerfile
+    container_name: buyerservice
+    ports:
+    - "3011:3011"
+    depends_on:
+    - sqlestateagentbuyerdata
+    networks:
+        EstateAgentMicroservicenetwork:
+            ipv4_address: 172.19.10.211
+
+  sqlestateagentbuyerdata: 
+    image:  mcr.microsoft.com/mssql/server:2022-latest 
+    environment: 
+      - SA_PASSWORD=PaSSw0rdPaSSw0rd 
+      - ACCEPT_EULA=Y
+    container_name: sqlestateagentbuyerdata 
+    ports: 
+      - "1402:1433" 
+    networks: 
+        EstateAgentMicroservicenetwork: 
+            ipv4_address: 172.19.10.202
+
+  sellerservice:
+    image: ${DOCKER_REGISTRY-}sellerservice
+    build:
+      context: .
+      dockerfile: SellerService/Dockerfile
+
+networks:
+    EstateAgentMicroservicenetwork:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.19.0.0/16
+

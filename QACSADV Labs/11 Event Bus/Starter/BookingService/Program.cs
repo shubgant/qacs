@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using BookingService.Infrastructure;
 using BookingService.Models;
 using Newtonsoft.Json;
+using Events;
+using DotNetCore.CAP;
+using BookingService.DomainEventHandler;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,33 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookingContext>(options =>
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("sqlestateagentdata")));
+
+builder.Services.AddCap(options =>
+{
+
+    options.UseEntityFramework<BookingContext>();
+    options.UseSqlServer(builder.Configuration.GetConnectionString("sqlestateagentdata"));
+
+    options.UseDashboard(d =>
+    {
+        d.AllowAnonymousExplicit = true;
+    });
+
+    options.UseRabbitMQ(options =>
+    {
+        options.ConnectionFactoryOptions = options =>
+        {
+            options.Ssl.Enabled = false;
+            options.HostName = "rabbitmq";
+            options.UserName = "guest";
+            options.Password = "guest";
+            options.Port = 5672;
+        };
+    });
+
+});
+
+builder.Services.AddScoped<PropertyDeletedEventSubscriber>();
 
 var app = builder.Build();
 

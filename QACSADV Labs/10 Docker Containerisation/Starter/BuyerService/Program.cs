@@ -26,6 +26,13 @@ namespace BuyerService
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
+                using (var scope = app.Services.CreateScope())
+                {
+                    var buyerContext =
+                        scope.ServiceProvider.GetRequiredService<BuyerContext>();
+                    buyerContext.Database.EnsureCreated();
+                    buyerContext.Seed();
+                }
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }

@@ -1,29 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F46013-51BF-41BD-97D4-C1C9530056C9}|docker-compose.dcproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36F46013-51BF-41BD-97D4-C1C9530056C9}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\buyerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{36F46013-51BF-41BD-97D4-C1C9530056C9}|docker-compose.dcproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36F46013-51BF-41BD-97D4-C1C9530056C9}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\infrastructure\\buyerseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\infrastructure\\buyerseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\propertyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362AB2D8-6CB3-492E-832F-B725D13D3ADA}|BuyerService\\BuyerService.csproj|solutionrelative:buyerservice\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\propertyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|solutionrelative:propertyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\bookingservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\bookingservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6BED06CE-F806-404F-ACA0-B58F34CC12BC}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|c:\\qal\\qacsadvanced\\labs\\10 docker containerisation\\starter\\propertyservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|c:\\users\\admin\\documents\\code\\qacs\\qacsadv labs\\10 docker containerisation\\starter\\propertyservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9CB7887D-38E2-4621-BB04-1090076A7E92}|PropertyService\\PropertyService.csproj|solutionrelative:propertyservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -34,41 +58,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Program.cs",
+              "RelativeDocumentMoniker": "BuyerService\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Program.cs",
+              "RelativeToolTip": "BuyerService\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAWwCAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:06:37.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuyerSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Infrastructure\\BuyerSeeder.cs",
+              "RelativeDocumentMoniker": "BuyerService\\Infrastructure\\BuyerSeeder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Infrastructure\\BuyerSeeder.cs",
+              "RelativeToolTip": "BuyerService\\Infrastructure\\BuyerSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:05:19.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-01-09T10:55:15.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-01-09T10:53:51.785Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\appsettings.json",
+              "RelativeDocumentMoniker": "BuyerService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\appsettings.json",
+              "RelativeToolTip": "BuyerService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T10:39:42.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Dockerfile",
+              "RelativeDocumentMoniker": "BuyerService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Dockerfile",
+              "RelativeToolTip": "BuyerService\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-09T10:38:53.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BuyerController.cs",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Controllers\\BuyerController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Controllers\\BuyerController.cs",
               "RelativeDocumentMoniker": "BuyerService\\Controllers\\BuyerController.cs",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Controllers\\BuyerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Controllers\\BuyerController.cs",
               "RelativeToolTip": "BuyerService\\Controllers\\BuyerController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAABBwB4AAAA1AAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAEBVwB4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T13:04:24.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BuyerService\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BuyerService\\Properties\\launchSettings.json",
               "RelativeToolTip": "BuyerService\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-26T11:51:08.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BookingService\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BookingService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BookingService\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BookingService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BookingService\\Properties\\launchSettings.json",
               "RelativeToolTip": "BookingService\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -77,11 +183,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PropertyService\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Properties\\launchSettings.json",
               "RelativeToolTip": "PropertyService\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -90,11 +196,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BookingService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BookingService\\Program.cs",
               "RelativeDocumentMoniker": "BookingService\\Program.cs",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\BookingService\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\BookingService\\Program.cs",
               "RelativeToolTip": "BookingService\\Program.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,13 +209,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Program.cs",
               "RelativeDocumentMoniker": "PropertyService\\Program.cs",
-              "ToolTip": "C:\\QAL\\QACSAdvanced\\Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\code\\qacs\\QACSADV Labs\\10 Docker Containerisation\\Starter\\PropertyService\\Program.cs",
               "RelativeToolTip": "PropertyService\\Program.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAABBwFAAAAADAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAEBVwFAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T09:48:25.14Z",
               "EditorCaption": ""
